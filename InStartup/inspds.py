@@ -16,7 +16,7 @@ st.set_page_config(
 # Load data
 def load_data():
     # Update with correct file path or URL
-    data = pd.read_csv("Indian Unicorn startups 2023 updated.csv")
+    data = pd.read_csv("InStartup/Indian Unicorn startups 2023 updated.csv")
     data = data.rename(columns={
         'Entry Valuation^^ ($B)': 'Entry Valuation ($B)',
         'Valuation ($B)': 'Current Valuation ($B)'
